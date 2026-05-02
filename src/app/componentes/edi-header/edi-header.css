@@ -1,0 +1,41 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E0E0F8;
+    font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+.ed-navbar 
+{
+    background-color: #0B610B !important;
+    color: #FFFFFF !important;
+    padding: 0px 50px;
+    min-height: 40px !important;
+    height: 40px !important;
+}
+
+.md-toolbar-tools 
+{
+    height: 40px;
+    max-height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn
+{
+    background-color: #0B610B;
+    color: white;
+}
+
+.titulo
+{
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

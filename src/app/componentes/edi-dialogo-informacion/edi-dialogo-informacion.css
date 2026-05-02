@@ -1,0 +1,60 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #E0E0F8;
+    font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+.dialog-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 500px;
+}
+
+.dialog-header
+{
+    background-color: #0B610B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+.titulo
+{
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+.close-btn
+{
+    color: white;
+}
+
+.dialog-content
+{
+    flex: 1;
+    padding: 16px;
+    font-size: 14px;
+    color: #333;
+    overflow-y: auto;
+}
+
+.dialog-footer
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 16px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.dialog-footer button
+{
+    min-width: 80px;
+}
