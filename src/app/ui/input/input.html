@@ -1,0 +1,11 @@
+<mat-form-field class="input-field">
+  <mat-label>{{ label }}</mat-label>
+
+  <input
+    matInput
+    [type]="type"
+    [placeholder]="placeholder"
+    [value]="value"
+    (input)="cambiarValor($event)"
+  >
+</mat-form-field>

@@ -1,0 +1,10 @@
+<button matFab extended
+        [style.background-color]="color"
+        [style.color]="colorTexto"
+        (click)="onClick()">
+@if(icono)
+{
+    <mat-icon>{{icono}}</mat-icon>
+}
+    {{label}}
+</button>

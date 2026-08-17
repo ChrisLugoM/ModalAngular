@@ -1,0 +1,8 @@
+<mat-form-field class="field-select">
+  <mat-label>{{label}}</mat-label>
+  <mat-select [value]="value" class="input-select" (selectionChange)="selectionChange($event.value)">
+    @for (option of options; track option.value) {
+      <mat-option [value]="option.value">{{option.text}}</mat-option>
+    }
+  </mat-select>
+</mat-form-field>
